@@ -19,7 +19,8 @@ public class SalaryCalculator {
     System.out.println("Please enter the number of overtime hours");
     extraHours = input.nextDouble();
     grossPay = (hourWage*hoursWorked) + ((hourWage*1.5)*extraHours);
-    System.out.println("Your gross pay is " + (hourWage*hoursWorked) + " of normal work hours and " + ((hourWage*1.5)*extraHours) + " of Overtime Hours");
+    System.out.println("Your gross pay is " + (hourWage*hoursWorked) + " of normal work hours and " +
+            ((hourWage*1.5)*extraHours) + " of Overtime Hours");
     System.out.println("Total Gross Salary " + grossPay);
     System.out.println("Insert you tax deduction. Note: The deault is 20%. Type 0");
     double inputTax = input.nextDouble();
