@@ -28,5 +28,7 @@ public class SalaryCalculator {
         taxDeduction = inputTax / 100;
     netPay = grossPay * (1-taxDeduction);
     System.out.println("Your net pay will be " + netPay);
+    input.close();
     }
+    
 }
