@@ -35,3 +35,4 @@ public class AreaCalculator {
 
         System.out.println(s);
 }
+}
