@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class EmployeeAccessSystem {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         
         int age; boolean card; boolean admin;
 
